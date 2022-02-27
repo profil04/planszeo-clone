@@ -3,7 +3,11 @@ import FooterListWithLinks from './FooterListWithLinks'
 
 export default function FooterCenterContainer() {
   return (
-    <div>
+    <div className='footer-center-container'>
+
+        <FooterListWithLinks/>
+        <FooterListWithLinks/>
+        <FooterListWithLinks/>
         <FooterListWithLinks/>
     </div>
   )

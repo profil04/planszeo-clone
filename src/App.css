@@ -40,6 +40,8 @@ nav {
 }
 
 .main-year-selection-bar {
+  grid-column-start: 1;
+  grid-column-end: -1;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -48,6 +50,8 @@ nav {
 }
 
 .main-month-selection-bar {
+  grid-column-start: 1;
+  grid-column-end: -1;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -89,7 +93,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1264px;
-  height: 1500px;
+  height: 3500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -149,4 +153,18 @@ nav {
 .year-link:hover {
   background-color: #7f4677;
   color: #f1edeb;
+}
+
+.footer-center-container {
+  display: flex;
+  flex-direction: row;
+  width: 1264px;
+  height: 304px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.array-2022 {
+  display: flex;
 }

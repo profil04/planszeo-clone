@@ -7,6 +7,7 @@ import onTableLogo from '../onTableLogo.png'
 import planszeoLogo from '../planszeoLogo.png'
 import MainYearSelactionBar from './MainYearSelactionBar'
 import MainMonthSelectionBar from './MainMonthSelectionBar'
+import MainListContainer from './MainListContainer'
 
 export default function MainContent() {
   return (
@@ -17,6 +18,7 @@ export default function MainContent() {
         <MainContentLink imageLink={planszeoLogo} />
         <MainYearSelactionBar/>
         <MainMonthSelectionBar/>
+        <MainListContainer/>
     </div>
   )
 }
