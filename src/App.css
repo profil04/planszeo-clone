@@ -9,6 +9,10 @@ body {
   background-color: #e5dfdf;
 }
 
+.capitalize {
+  text-transform: uppercase;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -21,7 +25,7 @@ nav {
   margin-top: -110px;
   max-width: 100%;
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color: #f1edeb;
   position: fixed;
 }
@@ -40,23 +44,17 @@ nav {
 }
 
 .main-year-selection-bar {
-  grid-column-start: 1;
-  grid-column-end: -1;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+
   text-align: center;
-  margin: auto;
 }
 
 .main-month-selection-bar {
-  grid-column-start: 1;
-  grid-column-end: -1;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+
   text-align: center;
-  margin: auto;
 }
 
 .search-bar > input {
@@ -89,9 +87,22 @@ nav {
   text-align: center;
 }
 
+.mobile-app-link-container > a,
+.calendar-link-container > a {
+  color: white;
+}
+
+.mobile-app-link-container > a:hover {
+  color: #4a4159;
+}
+
+.calendar-link-container > a:hover {
+  color: #201633;
+}
+
 .main-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   width: 1264px;
   height: 3500px;
   margin-left: auto;
@@ -102,9 +113,12 @@ nav {
   border-radius: 30px;
 }
 
+.main-content-links-container {
+  display: flex;
+  margin-top: 70px;
+}
+
 .title {
-  grid-column-start: 1;
-  grid-column-end: -1;
   width: auto;
   height: 36px;
   margin-left: auto;
@@ -167,4 +181,24 @@ nav {
 
 .array-2022 {
   display: flex;
+}
+
+.item-container {
+  width: 160px;
+  height: 217px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.array2022 {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main-list-container {
+  display: flex;
+  max-width: 1264px;
+  width: 100%;
 }

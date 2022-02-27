@@ -13,9 +13,11 @@ export default function MainContent() {
   return (
     <div className="main-content">
         <Title/>
-        <MainContentLink imageLink={boardNewsLogo} />
-        <MainContentLink imageLink={onTableLogo} />
-        <MainContentLink imageLink={planszeoLogo} />
+        <div className='main-content-links-container'>
+          <MainContentLink imageLink={boardNewsLogo} />
+          <MainContentLink imageLink={onTableLogo} />
+          <MainContentLink imageLink={planszeoLogo} />
+        </div>
         <MainYearSelactionBar/>
         <MainMonthSelectionBar/>
         <MainListContainer/>
