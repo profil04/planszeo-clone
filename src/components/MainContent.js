@@ -21,6 +21,8 @@ export default function MainContent() {
         <MainYearSelactionBar/>
         <MainMonthSelectionBar/>
         <MainListContainer/>
+        <MainYearSelactionBar/>
+        <MainMonthSelectionBar/>
     </div>
   )
 }

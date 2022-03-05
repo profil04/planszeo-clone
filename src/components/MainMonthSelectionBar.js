@@ -3,7 +3,7 @@ import MonthLink from './MonthLink'
 
 export default function MainMonthSelectionBar() {
   return (
-    <div main-month-selection-bar>
+    <div className="main-month-selection-bar">
         <MonthLink monthName="styczeń"/>
         <MonthLink monthName="luty"/>
         <MonthLink monthName="marzec"/>
