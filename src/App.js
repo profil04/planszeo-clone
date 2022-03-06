@@ -5,6 +5,7 @@ import CalendarLinkContainer from './components/CalendarLinkContainer';
 import MainContent from './components/MainContent';
 import SideBar from './components/SideBar';
 import Footer from './components/Footer';
+import ScrollBackToTop from './components/ScrollBackToTop';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SideBar/>
       <MainContent/>
       <Footer/> 
+      <ScrollBackToTop/>
     </div>
   );
 }
