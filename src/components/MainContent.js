@@ -9,7 +9,7 @@ import MainYearSelactionBar from './MainYearSelactionBar'
 import MainMonthSelectionBar from './MainMonthSelectionBar'
 import MainListContainer from './MainListContainer'
 
-export default function MainContent() {
+export default function MainContent(props) {
   return (
     <div className="main-content">
         <Title/>
@@ -20,7 +20,7 @@ export default function MainContent() {
         </div>
         <MainYearSelactionBar/>
         <MainMonthSelectionBar/>
-        <MainListContainer/>
+        <MainListContainer term={props.term} array2022={props.array2022}/>
         <MainYearSelactionBar/>
         <MainMonthSelectionBar/>
     </div>

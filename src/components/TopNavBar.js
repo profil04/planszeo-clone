@@ -4,12 +4,12 @@ import SearchBar from './SearchBar'
 import LogoAndName from './LogoAndName'
 import '../App.css'
 
-export default function TopNavBar() {
+export default function TopNavBar(props) {
   return (
     <nav className="top-nav-bar">
         <div className="logo-and-search">
           <LogoAndName/>
-          <SearchBar/>
+          <SearchBar term={props.term} searchKeyword={props.searchKeyword}/>
         </div>
         <div className="nav-container">
           <NavItem elementName="nowości" icon="" link="#"/>
