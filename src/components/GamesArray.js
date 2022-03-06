@@ -5,7 +5,7 @@ import yearLogo from '../yearLogo.svg'
 
 export default function GamesArray(props) {
   return (
-    <div className="games-array">
+    <div className="games-array" id={props.id}>
         <div className='logo-container'>
             <img src={yearLogo}/>
             <div className="image-text">{props.arrayName}</div>

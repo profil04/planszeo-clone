@@ -7,7 +7,7 @@ import GamesArray from './GamesArray'
 
 export default function MainListContainer() {
 
-    const [array2022, setArray2022] = useState([
+    const array2022 = ([
         {premiere: true, image: gameAlone, title: "Alone"},
         {premiere: true, image: gameAlone, title: "Alone"},
         {premiere: true, image: gameAlone, title: "Alone"},
@@ -28,7 +28,7 @@ export default function MainListContainer() {
         {premiere: true, image: gameAlone, title: "Alone"},
     ])
 
-    const [array20221, setArray20221] = useState([
+    const [selectedArray2022, setSelectedArray2022] = useState([
         {premiere: true, image: gameAlone, title: "Alone"},
         {premiere: true, image: gameAlone, title: "Alone"},
         {premiere: true, image: gameAlone, title: "Alone"},
